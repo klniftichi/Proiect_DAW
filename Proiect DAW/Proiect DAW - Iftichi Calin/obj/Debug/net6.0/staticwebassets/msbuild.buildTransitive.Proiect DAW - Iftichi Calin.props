@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Proiect DAW - Iftichi Calin.props" />
+</Project>
