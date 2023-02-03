@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AkVmzNLaf/nJHH0pcB0T4bidooCv5C0IyRgZ8SvaKh9lPwU5LUAJj6XRJdCHb4O8eZWdnLApNcRzRyPd4Z01gA==",
+  "dgSpecHash": "QMF67xxWta9j6ZJirIZk5oV9cuYZDkRITd+nZFzOKVFqUb2ZwpemOZk/F4/SYhV5Xss8U3it4f0N3m0CJov0zQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kln\\Desktop\\Universitate\\Anul 2\\DAW\\Proiect DAW - Iftichi Calin\\Proiect DAW - Iftichi Calin\\Proiect DAW - Iftichi Calin\\Proiect DAW - Iftichi Calin.csproj",
+  "projectFilePath": "C:\\Users\\kln\\Desktop\\PROIECT DAW - GITHUB\\Proiect_DAW\\Proiect DAW\\Proiect DAW - Iftichi Calin\\Proiect DAW - Iftichi Calin.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kln\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\kln\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

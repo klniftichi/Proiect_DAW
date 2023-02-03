@@ -10,7 +10,7 @@ namespace Proiect_DAW___Iftichi_Calin.Data
         public DbSet<Job> Joburi { get; set; }
         public DbSet<Sediu> Sedii { get; set; }
 
-        public ProiectContext(DbContextOptions<ProiectContext> options) : base(options) 
+        public ProiectContext(DbContextOptions<ProiectContext> options) : base(options)
         {
 
         }
@@ -46,7 +46,7 @@ namespace Proiect_DAW___Iftichi_Calin.Data
                 .HasOne(comp => comp.Sediu)
                 .WithOne(s => s.Companie)
                 .HasForeignKey<Companie>(comp => comp.SediuId);
-                
+
 
             base.OnModelCreating(modelBuilder);
         }

@@ -3728,11 +3728,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kln\\Desktop\\Universitate\\Anul 2\\DAW\\Proiect DAW - Iftichi Calin\\Proiect DAW - Iftichi Calin\\Proiect DAW - Iftichi Calin\\Proiect DAW - Iftichi Calin.csproj",
+      "projectUniqueName": "C:\\Users\\kln\\Desktop\\PROIECT DAW - GITHUB\\Proiect_DAW\\Proiect DAW\\Proiect DAW - Iftichi Calin\\Proiect DAW - Iftichi Calin.csproj",
       "projectName": "Proiect DAW - Iftichi Calin",
-      "projectPath": "C:\\Users\\kln\\Desktop\\Universitate\\Anul 2\\DAW\\Proiect DAW - Iftichi Calin\\Proiect DAW - Iftichi Calin\\Proiect DAW - Iftichi Calin\\Proiect DAW - Iftichi Calin.csproj",
+      "projectPath": "C:\\Users\\kln\\Desktop\\PROIECT DAW - GITHUB\\Proiect_DAW\\Proiect DAW\\Proiect DAW - Iftichi Calin\\Proiect DAW - Iftichi Calin.csproj",
       "packagesPath": "C:\\Users\\kln\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kln\\Desktop\\Universitate\\Anul 2\\DAW\\Proiect DAW - Iftichi Calin\\Proiect DAW - Iftichi Calin\\Proiect DAW - Iftichi Calin\\obj\\",
+      "outputPath": "C:\\Users\\kln\\Desktop\\PROIECT DAW - GITHUB\\Proiect_DAW\\Proiect DAW\\Proiect DAW - Iftichi Calin\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\kln\\AppData\\Roaming\\NuGet\\NuGet.Config",

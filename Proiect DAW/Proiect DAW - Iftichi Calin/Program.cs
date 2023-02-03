@@ -1,5 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using Proiect_DAW___Iftichi_Calin.Data;
+using Proiect_DAW___Iftichi_Calin.Repositories.SediuRepository;
+using Proiect_DAW___Iftichi_Calin.Services.DemoService;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,6 +12,12 @@ builder.Services.AddDbContext<ProiectContext>(options=>options.UseSqlServer(buil
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+//repositories
+builder.Services.AddTransient<IJobRepository, JobRepository>();
+
+//services
+builder.Services.AddTransient<IJobService, JobService>();
 
 var app = builder.Build();
 

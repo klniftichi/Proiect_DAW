@@ -16,7 +16,7 @@ namespace Proiect_DAW___Iftichi_Calin.Controllers
             _proiectContext = proiectContext;
         }
 
-        [HttpGet]
+        [HttpGet("Lista utilizatorilor")]
 
         public async Task<IActionResult> GetUtilizatori()
         {
