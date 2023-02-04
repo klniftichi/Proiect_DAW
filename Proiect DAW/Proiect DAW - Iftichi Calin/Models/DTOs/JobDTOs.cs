@@ -2,6 +2,7 @@
 {
     public class JobDTO
     { 
+        public Guid JobId { get; set; }
         public string Nume_Job { get; set; }
         public string Categorie_job { get; set; }
         public string Criterii { get; set; }

@@ -19,11 +19,12 @@ namespace Proiect_DAW___Iftichi_Calin.Services.DemoService
 
             JobDTO results = new()
             {
+                JobId = job.JobId,
                 Nume_Job = job.Nume_Job,
                 Categorie_job = job.Categorie_job,
                 Criterii = job.Criterii,
                 Descriere_job = job.Descriere_job,
-                CompanieId = job.Companie.CompanieId
+                CompanieId = job.Companie.CompanieId,
             };
             return results;
            
