@@ -6,6 +6,8 @@ using Proiect_DAW___Iftichi_Calin.Models.DTOs;
 using Proiect_DAW___Iftichi_Calin.Models;
 using Proiect_DAW___Iftichi_Calin.Services.DemoService;
 using Microsoft.EntityFrameworkCore;
+using Proiect_DAW___Iftichi_Calin.Helpers.Atributes;
+using Proiect_DAW___Iftichi_Calin.Models.Enums;
 
 namespace Proiect_DAW___Iftichi_Calin.Controllers
 {
@@ -20,6 +22,7 @@ namespace Proiect_DAW___Iftichi_Calin.Controllers
             _jobService = jobService;
         }
 
+       // [Authorization(Rol.User)]
         [HttpGet("Joburile dintr-o anumita categorie **NOT WORKING YET**")]
         public IActionResult GetByCategory(string category) // repository -> cu baza de date ; serviciile se folos. de repos pt a lua ce date are nevoie -> serviciul este apelat in controller
         {

@@ -2,9 +2,10 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Proiect_DAW___Iftichi_Calin.Data;
+using Proiect_DAW___Iftichi_Calin.Helpers.Atributes;
 using Proiect_DAW___Iftichi_Calin.Models;
 using Proiect_DAW___Iftichi_Calin.Models.DTOs;
-
+using Proiect_DAW___Iftichi_Calin.Models.Enums;
 
 namespace Proiect_DAW___Iftichi_Calin.Controllers
 {
@@ -19,6 +20,7 @@ namespace Proiect_DAW___Iftichi_Calin.Controllers
             _proiectContext = proiectConext;
         }
 
+        //[Authorization(Rol.Admin)]
         [HttpPost("Adauga o noua companie")]
         public async Task<IActionResult> Create(CompanieDTO companieDTO)
         {
@@ -49,6 +51,8 @@ namespace Proiect_DAW___Iftichi_Calin.Controllers
             return Ok(newCompanie);
         }
 
+
+        //[Authorization(Rol.Admin)]
         [HttpGet("Afiseaza toate companiile")]
 
         public async Task<IActionResult> GetCompanii()

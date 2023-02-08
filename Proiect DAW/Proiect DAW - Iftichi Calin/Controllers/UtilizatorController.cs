@@ -2,6 +2,8 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Proiect_DAW___Iftichi_Calin.Data;
+using Proiect_DAW___Iftichi_Calin.Helpers.Atributes;
+using Proiect_DAW___Iftichi_Calin.Models.Enums;
 
 namespace Proiect_DAW___Iftichi_Calin.Controllers
 {
@@ -16,6 +18,7 @@ namespace Proiect_DAW___Iftichi_Calin.Controllers
             _proiectContext = proiectContext;
         }
 
+        //[Authorization(Rol.Admin)]
         [HttpGet("Lista utilizatorilor")]
 
         public async Task<IActionResult> GetUtilizatori()

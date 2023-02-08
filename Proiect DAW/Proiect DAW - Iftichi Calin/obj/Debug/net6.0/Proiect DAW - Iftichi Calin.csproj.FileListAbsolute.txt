@@ -259,3 +259,6 @@ C:\Users\kln\Desktop\PROIECT DAW - GITHUB\Proiect_DAW\Proiect_DAW\Proiect DAW\Pr
 C:\Users\kln\Desktop\PROIECT DAW - GITHUB\Proiect_DAW\Proiect_DAW\Proiect DAW\Proiect DAW - Iftichi Calin\obj\Debug\net6.0\Proiect DAW - Iftichi Calin.pdb
 C:\Users\kln\Desktop\PROIECT DAW - GITHUB\Proiect_DAW\Proiect_DAW\Proiect DAW\Proiect DAW - Iftichi Calin\obj\Debug\net6.0\Proiect DAW - Iftichi Calin.genruntimeconfig.cache
 C:\Users\kln\Desktop\PROIECT DAW - GITHUB\Proiect_DAW\Proiect_DAW\Proiect DAW\Proiect DAW - Iftichi Calin\obj\Debug\net6.0\ref\Proiect DAW - Iftichi Calin.dll
+C:\Users\kln\Desktop\PROIECT DAW - GITHUB\Proiect_DAW\Proiect_DAW\Proiect DAW\Proiect DAW - Iftichi Calin\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\kln\Desktop\PROIECT DAW - GITHUB\Proiect_DAW\Proiect_DAW\Proiect DAW\Proiect DAW - Iftichi Calin\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\kln\Desktop\PROIECT DAW - GITHUB\Proiect_DAW\Proiect_DAW\Proiect DAW\Proiect DAW - Iftichi Calin\bin\Debug\net6.0\BCrypt.Net-Core.dll

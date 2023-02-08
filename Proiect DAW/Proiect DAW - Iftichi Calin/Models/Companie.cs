@@ -1,4 +1,5 @@
 ﻿using Proiect_DAW___Iftichi_Calin.Models.Base;
+using Proiect_DAW___Iftichi_Calin.Models.Enums;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
@@ -17,6 +18,6 @@ namespace Proiect_DAW___Iftichi_Calin.Models
         public string? ParolaHash { get; set; }
         public ICollection<Job> Joburi { get; set; }
         public Sediu Sediu { get; set; }
-
+        public Rol Roluri { get; set; }
     }
 }
